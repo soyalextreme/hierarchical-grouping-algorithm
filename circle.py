@@ -37,26 +37,6 @@ class CircleVector():
                 distances.append(distance2)
         return distances
 
-        # print(distances)
-
-        # i = 0
-        # for distance in distances:
-
-        #     lower_distance = distances[0]
-        #     if lower_distance > distance:
-        #         i += 1
-        #         lower_distance = distance
-
-        # name_cluster_1 = vector_array[i]._name
-
-        # self._position_x = vector_array[i]._position_x
-        # self._position_y = vector_array[i]._position_y
-        # self._name = f"Cluster de {self._name} con {vector_array[i]._name}"
-        # self._color = vector_array[i]._color
-
-        # vector_array = clean(vector_array, i)
-        # return vector_array, [self._name, name_cluster_1]
-
     def join_vectors(self, distances, vector_array):
         i = 0
         for distance in distances:
